@@ -756,6 +756,6 @@ S.Shape = (function () {
 
 S.init();
 setInterval(()=>{
-  S.init();
+  S.UI.simulate("彭城之畔|蕴一玖玉|青山妩媚|流水悦之");
 },8000)
 
