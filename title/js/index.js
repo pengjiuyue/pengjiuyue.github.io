@@ -333,7 +333,7 @@ S.UI.Tabs = (function () {
     panels[i].classList.add("tabs-panel--active");
   }
 
-  function bindEvents() {
+  function bindEvents1() {
     labels.addEventListener("click", function (e) {
       var el = e.target,
         index;
@@ -355,7 +355,7 @@ S.UI.Tabs = (function () {
 
   function init() {
     activate(0);
-    bindEvents();
+    bindEvents1();
   }
 
   // Init
